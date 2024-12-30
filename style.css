@@ -1,0 +1,50 @@
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    background-color: rgb(165, 241, 165);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    width: 50%;
+    height: 50px;
+}
+
+.row-1 {
+    color: green;
+}
+
+.row-2,
+.row-5 {
+    background-color: rgb(191, 245, 191);
+}
+
+.td1 {
+    padding: 0px 40px 0px 0px;
+    width: 80px;
+    height: 50px;
+}
+
+.td2,
+.td3,
+.td4,
+.td5,
+.td6,
+.td7 {
+    padding: 0px 70px 0px 70px;
+}
+
+.td4 {
+    color: green;
+}
+
+.td6 button {
+    height: 30px;
+    background-color: rgb(147, 241, 147);
+    color: green;
+    border: rgb(165, 241, 165);
+}
